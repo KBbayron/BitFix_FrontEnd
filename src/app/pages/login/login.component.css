@@ -1,0 +1,23 @@
+form{
+    height: 50%;
+}
+
+.f1{
+    padding-top: 50px;
+}
+
+.s1{
+    padding-top: 200px;
+}
+
+.btn-login{
+    margin-top: 10vh;
+    vertical-align: center;
+    background-color: rgba(55, 53, 117, 1) !important;
+}
+
+input, 
+button{
+    border-radius: 50px;
+    height: 50px;
+}

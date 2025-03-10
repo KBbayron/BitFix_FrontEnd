@@ -1,0 +1,35 @@
+<div class="vh-100">
+  <form class="container text-white text-center f1">
+    <label class="pb-5 fs-1 fw-bolder">Login</label>
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <label for="username" class="fs-3">Usuario o Email</label>
+        <input type="text" id="username" name="username" [(ngModel)]="username" class="form-control" required placeholder="">
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-6 mx-auto">
+        <label for="password" class="fs-3">Contraseña</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" class="form-control" required placeholder="">
+      </div>
+    </div>
+    <div class="row mt-4 ">
+      <div class="col-md-6 mx-auto d-flex justify-content-center">
+        <button type="submit" class="btn btn-login text-white w-100 fs-4">Login</button>
+      </div>
+    </div>
+  </form>
+
+  <section class="container text-center mt-3 s1">
+    <div class="row">
+      <div class="col-md-6 mx-auto mb-3 d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary w-100">Olvidé mi contraseña</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mx-auto d-flex justify-content-center">
+        <button type="button" class="btn btn-secondary w-100">Registrarme</button>
+      </div>
+    </div>
+  </section>
+</div>
