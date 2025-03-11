@@ -21,3 +21,38 @@ button{
     border-radius: 50px;
     height: 50px;
 }
+
+/* .alert {
+    margin-top: 20px;
+    font-size: 16px;
+} */
+.alert-danger {
+    background-color: #9b1a25;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+#username {
+    text-align: center;
+}
+
+#password {
+    text-align: center;
+}
+
+.fixed-alert {
+    position: fixed;
+    top: 20px; /* Ajusta según sea necesario */
+    left: 50%;
+    transform: translateX(-50%); /* Centra el alert horizontalmente */
+    z-index: 1050; /* Asegúrate de que el alert esté por encima de otros elementos */
+    width: auto;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

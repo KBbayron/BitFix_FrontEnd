@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
-import { LoginComponent } from './pages/login/login.component'; // Asegúrate de importar correctamente
+import { LoginComponent } from './pages/login/login.component';
+import { ClienteHomeComponent } from './pages/cliente-home/cliente-home.component'; // Asegúrate de importar correctamente
 
 @NgModule({
   declarations: [
-    AppComponent, // Agregar solo los componentes no Standalone aquí
+    AppComponent,
+    ClienteHomeComponent, // Agregar solo los componentes no Standalone aquí
   ],
   imports: [
     BrowserModule,
